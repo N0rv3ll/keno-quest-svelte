@@ -1,0 +1,7 @@
+```toml
+ [build] 
+ publish = "build"
+ command = "npm run build"  
+ ```
+- The  `publish` directive points to the output folder, where Netlify will grab your built files to serve them! 
+- The `command` to be used to create `build` folder before publishing it. 
